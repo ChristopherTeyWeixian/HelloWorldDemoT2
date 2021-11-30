@@ -26,9 +26,9 @@ jobs:
     - name: Checkout private repo remotely
       uses: actions/checkout@v2
       with:
-        repository: lowkh2/DevOpsQARepo
+        repository: ChristopherTeyWeixian/12345
         path: tests
-        token: ${{ secrets.QA_REMOTE }}
+        token: ${{ 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 }}
         
       
     - name: Begin Pytest
